@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SweetMagic.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SweetMagic.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\assets\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\FATEC\\SweetMagic\\wwwroot\\fonts\\DreamingOutloud.ttf",
+      "PackagePath": "staticwebassets\\fonts\\DreamingOutloud.ttf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SweetMagic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SweetMagic.props",
+      "PackagePath": "build\\SweetMagic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SweetMagic.props",
+      "PackagePath": "buildMultiTargeting\\SweetMagic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SweetMagic.props",
+      "PackagePath": "buildTransitive\\SweetMagic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

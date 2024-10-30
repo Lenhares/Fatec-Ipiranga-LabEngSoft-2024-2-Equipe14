@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Dreaming";
+    src: url('../fonts/DreamingOutloud.ttf');
+}
+
+.page[b-yb6d7fdyma] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main[b-yb6d7fdyma] {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.background-image[b-yb6d7fdyma] {
+    position: absolute; /* Position it absolutely */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    right: 0; /* Stretch it to the right */
+    bottom: 0; /* Stretch it to the bottom */
+    background-image: url('assets/images/background.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    z-index: -1; /* Send it to the back */
+}
+
+.content[b-yb6d7fdyma]{
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.navbar[b-yb6d7fdyma] {
+    margin-right: auto;
+    padding: 10px 0px 0px 0px;
+}
+
+.ulnavbar[b-yb6d7fdyma], .ulLogout[b-yb6d7fdyma] {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.logo[b-yb6d7fdyma] {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.nav-btn[b-yb6d7fdyma], .logout-btn[b-yb6d7fdyma] {
+    background-color: #ffc7d4;
+    border: 1px solid black;
+    padding: 0.6rem 1rem; /* Use responsive padding */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem; /* Responsive font size */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition */
+}
+
+.nav-btn:hover[b-yb6d7fdyma], .logout-btn:hover[b-yb6d7fdyma] {
+    background-color: #ff9cbb; /* New background color on hover */
+    transform: scale(1.05); /* Scale up the button slightly */
+}
+
+.logout-btn[b-yb6d7fdyma] {
+    padding: 0.6rem 1.5rem; /* Adjusted for responsiveness */
+}
+
+.top-row-disabled[b-yb6d7fdyma]{
+    display: none;
+}
+.top-row-visible[b-yb6d7fdyma] {
+    background-color: #fe6694;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    height: auto; /* Auto height to adapt on smaller screens */
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+}
+
+    .top-row-visible[b-yb6d7fdyma]  a, .top-row[b-yb6d7fdyma]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+        .top-row-visible[b-yb6d7fdyma]  a:hover, .top-row[b-yb6d7fdyma]  .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row-visible[b-yb6d7fdyma]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+@media (max-width: 640.98px) {
+    .top-row-visible[b-yb6d7fdyma] {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 5px;
+    }
+
+    .top-row-disabled[b-yb6d7fdyma] {
+        display: none;
+    }
+
+    /* Center logo and header */
+    .mainLogo[b-yb6d7fdyma] {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center the logo horizontally */
+        align-items: center; /* Center the logo vertically, if needed */
+        margin: 0 auto; /* Ensure it's centered in the parent */
+        position: relative; /* Retain positioning context */
+        width: 100%; /* Optional: Set width to ensure it takes full space */
+    }
+
+    .logo[b-yb6d7fdyma] {
+        width: 100px; /* Smaller logo for mobile */
+        text-align: center;
+        margin-right: 0;
+        height: auto;
+    }
+
+    #header[b-yb6d7fdyma] {
+        display: none;
+        font-size: 1.5rem; /* Responsive font size for mobile */
+        margin: 10px 0; /* Add margin to avoid overlap */
+    }
+
+    /* Stack buttons in a single column for mobile */
+    .ulnavbar[b-yb6d7fdyma], .ulLogout[b-yb6d7fdyma] {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-btn[b-yb6d7fdyma], .logout-btn[b-yb6d7fdyma] {
+        font-size: 0.9rem; /* Adjust button size */
+        padding: 0.5rem 1rem;
+        margin: 5px 0; /* Add space between stacked buttons */
+    }
+
+    /* Center the "Sair" button below other navigation buttons */
+    .logoutDiv[b-yb6d7fdyma] {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* Error UI */
+#blazor-error-ui[b-yb6d7fdyma] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-yb6d7fdyma] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+#header[b-yb6d7fdyma] {
+    font-size: 3rem;
+    font-family: 'Dreaming';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBtnDiv[b-yb6d7fdyma] {
+    flex-grow: 1;
+    justify-content: flex-start;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.mainHeaderDiv[b-yb6d7fdyma] {
+    position:absolute;
+    justify-content: center;
+    text-align: center;
+}
+
+.logoutDiv[b-yb6d7fdyma] {
+    margin-left: auto;
+}

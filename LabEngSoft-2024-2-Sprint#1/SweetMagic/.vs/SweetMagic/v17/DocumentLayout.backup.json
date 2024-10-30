@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FATEC\\SweetMagic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\pages\\history.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\pages\\history.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\pages\\history.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\pages\\history.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|d:\\fatec\\sweetmagic\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55E2E631-ABF6-4F05-9E61-FD7EFD50AF5C}|SweetMagic.csproj|solutionrelative:components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:26:31.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Pages\\Cadastro.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Cadastro.razor",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Pages\\Cadastro.razor",
+              "RelativeToolTip": "Components\\Pages\\Cadastro.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T19:25:57.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:21:32.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:35:00.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T11:29:17.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T20:13:59.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-27T20:13:58.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "History.razor.css",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Pages\\History.razor.css",
+              "RelativeDocumentMoniker": "Components\\Pages\\History.razor.css",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Pages\\History.razor.css",
+              "RelativeToolTip": "Components\\Pages\\History.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-27T20:13:19.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "History.razor",
+              "DocumentMoniker": "D:\\FATEC\\SweetMagic\\Components\\Pages\\History.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\History.razor",
+              "ToolTip": "D:\\FATEC\\SweetMagic\\Components\\Pages\\History.razor",
+              "RelativeToolTip": "Components\\Pages\\History.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-13T00:21:27.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

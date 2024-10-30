@@ -1,0 +1,83 @@
+﻿@page "/cadastro"
+@rendermode InteractiveServer
+@layout SweetMagic.Components.Layout.MainLayout
+@inject Services.UserService UserService
+@inject NavigationManager Navigation
+
+<PageTitle>Sweet Magic - Cadastro</PageTitle>
+<div class="register-page">
+    <div class="register-box">
+    <a href="/">
+        <img src="assets/images/logo.png" alt="Logo" class="logo">
+    </a>
+    <h2>Cadastre-se</h2>
+    <EditForm class="editFormClass" Model="this" OnValidSubmit="Register">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <!-- E-mail Field -->
+        <div class="form-group">
+            <label for="email" class="form-label">E-mail</label>
+            <InputText id="email" class="form-control" @bind-Value="email" type="email" required />
+            <ValidationMessage For="@(() => email)" />
+        </div>
+
+        <!-- Name Field -->
+        <div class="form-group">
+            <label for="nome" class="form-label">Seu nome</label>
+            <InputText id="nome" class="form-control" @bind-Value="name" required />
+            <ValidationMessage For="@(() => name)" />
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+            <label for="pwd" class="form-label">Senha</label>
+            <InputText id="pwd" class="form-control" @bind-Value="password" type="password" required />
+            <ValidationMessage For="@(() => password)" />
+        </div>
+
+        <!-- Confirm Password Field -->
+        <div class="form-group">
+            <label for="pwd2" class="form-label">Repetir senha</label>
+            <InputText id="pwd2" class="form-control" @bind-Value="confirmPassword" type="password" required />
+            <ValidationMessage For="@(() => confirmPassword)" />
+        </div>
+
+        @if (!string.IsNullOrEmpty(errorMessage)) {
+            <div class="error-message">@errorMessage</div>
+        }
+
+        <button type="submit" class="cadastrarBtn-class btn btn-primary" id="cadastrarBtn">Cadastrar</button>
+    </EditForm>
+</div>
+</div>
+
+
+@code {
+
+    [CascadingParameter]
+    public SweetMagic.Components.Layout.MainLayout Layout { get; set; }
+
+    private string email;
+    private string password;
+    private string confirmPassword;
+    private string name; // Added for user's name
+    private string errorMessage;
+
+    private async Task Register() {
+        // Check if the passwords match
+        if (password != confirmPassword) {
+            errorMessage = "As senhas não coincidem.";
+            return;
+        }
+
+        // Attempt to register the user
+        bool success = await UserService.RegisterUserAsync(email, name, password);
+        if (success) {
+            Navigation.NavigateTo("/"); // Redirect to login page
+        }
+        else {
+            errorMessage = "Este usuário já existe."; // User already exists
+        }
+    }
+}
